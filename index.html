@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mahoney's Electrical Ltd</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="header_wrap">
+    <div id="header"><img src="img/logo.jpg"/></div>
+    <div id="header_text">
+      <p>Providing excellence in Residential, Commercial, Renovation and Electrical service work for over 10 years</p>
+    </div>
+    </div>
+
+    <div id="nav">
+    <ul> 
+      <li><a href="#home" class="active" id="homenav" onclick= "show_hide(event,'home', 'about','projects', 'services', 'contact', 'career'), changeclass(event, 'homenav', 'aboutnav','projectsnav', 'servicesnav', 'contactnav', 'careernav')">Home</a></li>
+      <li><a href="#about" id="aboutnav" onclick= "show_hide(event,'about','home', 'projects', 'services', 'contact', 'career'), changeclass(event, 'aboutnav','homenav', 'projectsnav', 'servicesnav', 'contactnav', 'careernav')">About</a></li>
+      <li><a href="#projects" id="projectsnav" onclick= "show_hide(event,'projects','home', 'about', 'services', 'contact', 'career'), changeclass(event, 'projectsnav','homenav', 'aboutnav', 'servicesnav', 'contactnav', 'careernav')">Projects</a></li>
+      <li><a href="#services" id="servicesnav" onclick= "show_hide(event,'services', 'home','about', 'projects', 'contact', 'career'), changeclass(event, 'servicesnav', 'homenav','aboutnav', 'projectsnav', 'contactnav', 'careernav')">Services</a></li>
+      <li><a href="#contact" id="contactnav" onclick= "show_hide(event,'contact','home', 'about', 'projects', 'services','career'), changeclass(event, 'contactnav','homenav', 'aboutnav', 'projectsnav', 'servicesnav', 'careernav')">Contact</a></li>
+      <li><a href="#career" id="careernav" onclick= "show_hide(event,'career','home', 'about', 'projects', 'services', 'contact'), changeclass(event, 'careernav','homenav', 'aboutnav', 'projectsnav', 'servicesnav', 'contactnav')">Careers</a></li>
+    </ul>
+
+  </div>
+
+
+  <div id="home">
+
+  </div>
+
+  <div id="about">
+
+  </div>
+
+  <div id="projects">
+    <div id="service">
+      <img src="img/beforefinal.jpg"/><img src="img/afterfinal.jpg"/>
+    </div>
+    <div id="fuse">
+      <img src="img/before.jpg"/><img src="img/after.jpg"/>
+    </div>
+  </div>
+
+  <div id="services">
+
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Write a brief description of work to be done and location of work:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img/vehicle.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <label for="email">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+            <label for="subject">How can we help you?</label>
+            <textarea id="subject" name="subject" style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <div id="career">
+
+
+  </div>
+  
+  
+  <script src="/script.js"></script>
+
+  </body>
