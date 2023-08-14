@@ -196,16 +196,31 @@ input[type=submit] {
 }
 
 #career h1 {
-  text-align: center;
+  margin-top: 40px;
+  text-align: left;
   color:rgb(124, 21, 21);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
 
 #career h2 {
-  text-align: center;
+  margin-top: 50px;
+  text-align: left;
   color: rgb(68, 66, 66);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-style: italic;
+}
+
+#career p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+#career ul {
+
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
