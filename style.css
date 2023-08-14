@@ -194,3 +194,18 @@ input[type=submit] {
 #contact p {
   font-size: 18px;
 }
+
+#career h1 {
+  text-align: center;
+  color:rgb(124, 21, 21);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#career h2 {
+  text-align: center;
+  color: rgb(68, 66, 66);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
