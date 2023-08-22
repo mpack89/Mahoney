@@ -133,22 +133,21 @@
   }
 }
 
-
-{
+ {
   box-sizing: border-box;
 }
 
-
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
- 
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: rgb(2, 2, 53);
   color: white;
   padding: 12px 20px;
@@ -156,13 +155,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-
-
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
- 
 }
 
 .truck {
@@ -172,14 +168,12 @@ input[type=submit] {
   padding: 20px;
 }
 
-
 .column {
   float: right;
   width: 50%;
   margin-top: 6px;
   padding: 20px;
 }
-
 
 .row:after {
   content: "";
@@ -189,23 +183,22 @@ input[type=submit] {
 
 #contact h2 {
   font-size: 26px;
-
 }
 #contact p {
   font-size: 18px;
 }
 
 #career h1 {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   width: 50%;
-  color:rgb(124, 21, 21);
+  color: rgb(124, 21, 21);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
 
 #career h2 {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   width: 50%;
   color: rgb(68, 66, 66);
@@ -220,29 +213,48 @@ input[type=submit] {
   width: 50%;
 }
 
-
 #career ul {
-
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 #projects h1 {
   margin-top: 40px;
   padding-left: 15%;
   text-align: left;
-  color:rgb(124, 21, 21);
+  color: rgb(124, 21, 21);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-
 }
 
 #projects p {
-  
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   padding-left: 15%;
+}
+
+@media (max-width: 1200px) {
+  #projects {
+    width: 100%;
+  }
+
+  #career {
+    width: 100%;
+  }
+
+  #home {
+    width: 100%;
+  }
+  #about {
+    width: 100%;
+  }
+
+  #services {
+    width: 100%;
+  }
+  #contact {
+    width: 100%;
+  }
 
 }
